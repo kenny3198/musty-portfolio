@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio site</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<div class="nav-container">
+    <marquee behavior="" 
+    direction=""><h1>musty
+         <span class="graphics">graphics</span> 
+         designer </h1></marquee>
+</div>
+<div class="profile">
+    <div class="img">
+        <div>
+            <img src="./dp.jpg" alt="">
+        </div>
+    </div>
+<div class="about-info">
+    <h1 class="about-h1">about me</h1>
+    <h3 class="about-h3">I am a nigeria based graphics desingner, And also a tech enthuasism , <br> My purpose is making beautiful design and helps company grow with <br> with my <span class="awesome">Awesome</span> design. <br>
+    i am open to any available offer both remote and physical job </h3>
+</div>
+</div>
+<div class="skill-set">
+    <button class="skills-check">check my skills</button>
+        <div class="hidden-skill">
+            <div>i am skilled in using canvas</div>
+            <!-- </div> -->
+            <!-- <div class="hidden-skill"> -->
+                <div>i am skilled in using pixelLab</div>
+            <!-- </div> -->
+            <!-- <div class="hidden-skill"> -->
+                <div>i am skilled in using coreldraw</div>
+            <!-- </div> -->
+            <!-- <div class="hidden-skill"> -->
+                <div>i am skilled in problem soving</div>
+            <!-- </div> -->
+            <!-- <div class="hidden-skill"> -->
+                <div>i am skilled in visual communication</div>
+            </div>
+        
+    </div>
+<div class="project-display">
+    <button class="project-btn">my project</button>
+    <div class="project">
+   <div><img src="./project1.jpg" alt=""></div>
+   <div><img src="./project2.jpg" alt=""></div>
+   <div><img src="./project3.jpg" alt=""></div>
+   <div><img src="./project4.jpg" alt=""></div>
+   <div><img src="./project5.jpg" alt=""></div>
+    </div>
+</div>
+<hr>
+
+<div class="contact-info">
+<div class="image-info">
+   <img src="./dp.jpg" alt=""> 
+</div>
+
+<div class="btn-info">
+<a class="a-color" href="">Hire me</a>
+<a class="a-color2" href="https://wa.me/23409066291450?text=hello,">message me</a>
+</div>
+</div>
+<div class="footer">
+    <p> &copy; @musty graphics designer 2022 </p>
+</div>
+<script>
+
+    const button = document.querySelector(".skills-check");
+    const skillSet = document.querySelector(".skill-set")
+    const hiddenSkill = document.querySelector(".hidden-skill")
+        button.addEventListener("click", ()=>{
+            hiddenSkill.classList.toggle("active")
+    })
+
+
+    
+</script>
+</body>
+</html>
