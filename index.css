@@ -80,6 +80,15 @@ img{
         align-items: center;
         padding: 20px;
     }
+    .project{
+        width: 300px;
+        display: flex;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        flex-wrap: wrap;
+        padding-bottom: 90px;
+        justify-content: center;
+    }
 
 
 }
@@ -146,6 +155,9 @@ img{
     flex-wrap: wrap;
     padding-bottom: 90px;
 
+}
+img{
+    width: 330px;
 }
 img:hover{
     transform: scale(1.1);
