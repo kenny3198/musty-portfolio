@@ -136,6 +136,7 @@ img{
 .hidden-skill{
     font-size: 20px;
     text-transform: capitalize;
+    text-align: center;
     margin-left: 20px;
     line-height: 1.6;
     cursor: pointer;
@@ -159,9 +160,9 @@ img{
 img{
     width: 330px;
 }
-img:hover{
-    transform: scale(1.1);
-}
+/* img:hover{ */
+    /* transform: scale(1.1); */
+/* } */
 .project-display{
     background: rgba(0, 0, 0, 0.9);
 
